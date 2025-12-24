@@ -1,9 +1,12 @@
 {
     "name": "css-vars-intellisense-4-angular",
-    "displayName": "CSS Vars IntelliSense for Angular",
+    "displayName": "CSS Variables IntelliSense for Angular",
     "description": "IntelliSense for global CSS variables defined in angular.json configuration file.",
     "publisher": "gematsamx",
     "version": "1.0.1",
+    "repository": {
+        "url": "https://github.com/Gematsam-X/vscext-css-vars-intellisense"
+    },
     "engines": {
         "vscode": "^1.80.0"
     },
