@@ -5,6 +5,7 @@
     "publisher": "gematsamx",
     "version": "1.0.2",
     "license": "SEE LICENSE IN LICENSE",
+    "icon": "icon.png",
     "repository": {
         "url": "https://github.com/Gematsam-X/vscext-css-vars-intellisense"
     },
