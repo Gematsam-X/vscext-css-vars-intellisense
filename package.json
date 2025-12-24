@@ -1,0 +1,26 @@
+{
+    "name": "css-vars-intellisense-4-angular",
+    "displayName": "CSS Vars IntelliSense for Angular",
+    "description": "IntelliSense for global CSS variables defined in angular.json configuration file.",
+    "publisher": "gematsamx",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "activationEvents": [
+        "onLanguage:css",
+        "onLanguage:scss"
+    ],
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -p ./",
+        "watch": "tsc -w -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "chokidar": "^5.0.0",
+        "typescript": "^5.0.0",
+        "vscode": "^1.1.37"
+    }
+}
